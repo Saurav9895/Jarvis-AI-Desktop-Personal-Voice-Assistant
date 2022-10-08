@@ -59,9 +59,11 @@ def sendEmail(to, content):
     
 if __name__== "__main__":
     wishMe()
-    while True:
-    
+    #while True:
+    if 1:
         query = takeCommand().lower()
+    
+        
 
     # logic for executing task based on query
         if 'wikipedia' in query:
